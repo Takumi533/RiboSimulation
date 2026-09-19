@@ -49,7 +49,7 @@ public class ResultDisplay {
 		if (monthlyPaymentY > 0) {
 			System.out.print(monthlyPaymentY + " 年 ");
 		}
-		System.out.println(+monthlyPaymentM + " ヶ月です");
+		System.out.println(+monthlyPaymentM + " ヶ月です。");
 		System.out.println("総支払金額は " + this.totalPayment + " 円です。");
 		System.out.println("総手数料は " + this.totalFees + " 円です。");
 	}
